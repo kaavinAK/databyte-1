@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb+srv://kaaivn:gak5679v@tutorial.1omiw.mongodb.net/databyte?retryWrites=true&w=majority", {
+  .connect("your db url", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
